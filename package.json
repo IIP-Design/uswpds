@@ -1,0 +1,14 @@
+{
+  "name": "@gpalab/uswpds",
+  "version": "0.0.1",
+  "description": "Plugin to make US Web Design System components available in WordPress",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "U.S. Department of State, Bureau of Global Public Affairs Digital Lab <gpadigitalhelp@state.gov>",
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "uswds": "^2.9.0"
+  }
+}
