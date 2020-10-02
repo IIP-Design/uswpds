@@ -1,0 +1,5 @@
+# Dependencies
+vendor/
+
+# Local Settings
+.vscode/

@@ -5,6 +5,7 @@
  * @package USWPDS\Frontend
  * @since 0.0.1
  */
+
 namespace USWPDS;
 
 /**
@@ -15,6 +16,6 @@ namespace USWPDS;
  */
 class Frontend {
 
-  // INSERT YOUR FRONTEND FUNCTIONS HERE
+  // INSERT YOUR FRONTEND FUNCTIONS HERE.
 
 }
