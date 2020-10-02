@@ -3830,15 +3830,16 @@ button.usa-combo-box__toggle-list:focus {
 .usa-banner__content {
   margin-left: auto;
   margin-right: auto;
-  max-width: 64rem;
+  max-width: 100%;
   background-color: transparent;
   font-size: 1rem;
   overflow: hidden;
   padding: 0.25rem 1rem 1rem 0.5rem;
   width: 100%;
 }
-@media all and (min-width: 64em) {
+@media all and (min-width: 780px) {
   .usa-banner__content {
+    max-width: 50%;
     padding-left: 2rem;
     padding-right: 2rem;
   }
@@ -3855,7 +3856,6 @@ button.usa-combo-box__toggle-list:focus {
 .usa-banner__guidance {
   display: flex;
   align-items: flex-start;
-  max-width: 64ex;
   padding-top: 1rem;
 }
 @media all and (min-width: 40em) {
@@ -3873,7 +3873,7 @@ button.usa-combo-box__toggle-list:focus {
 .usa-banner__inner {
   margin-left: auto;
   margin-right: auto;
-  max-width: 64rem;
+  max-width: 100%;
   padding-left: 1rem;
   padding-right: 1rem;
   display: flex;
@@ -3881,8 +3881,9 @@ button.usa-combo-box__toggle-list:focus {
   align-items: flex-start;
   padding-right: 0;
 }
-@media all and (min-width: 64em) {
+@media all and (min-width: 780px) {
   .usa-banner__inner {
+    max-width: 50%;
     padding-left: 2rem;
     padding-right: 2rem;
   }
@@ -3998,6 +3999,7 @@ button.usa-combo-box__toggle-list:focus {
   border: 0;
   border-radius: 0;
   box-shadow: none;
+  font-family: Source Sans Pro Web, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
   font-weight: 400;
   margin: 0;
   text-align: left;
@@ -4176,7 +4178,7 @@ button.usa-combo-box__toggle-list:focus {
   }
 }
 .usa-banner__icon {
-  width: 2.5rem;
+  width: 38px;
 }
 .usa-breadcrumb {
   font-family: Source Sans Pro Web, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;

@@ -36,12 +36,12 @@ class Frontend {
 
     if ( ! is_admin() ) {
       ?>
-      <section class="usa-banner" aria-label="Official government website" style="padding-top: 0;">
+      <section class="usa-banner" aria-label="Official government website" style="padding-bottom: 0;padding-top: 0;">
         <div class="usa-accordion">
           <header class="usa-banner__header">
             <div class="usa-banner__inner">
               <div class="grid-col-auto">
-                <img class="usa-banner__header-flag" src="<?php echo esc_attr( USWPDS_URL . 'public/assets/img/us_flag_small.png' ); ?>" alt="U.S. flag">
+                <img class="usa-banner__header-flag" src="<?php echo esc_attr( USWPDS_URL . 'public/assets/img/us_flag_small.png' ); ?>" alt="U.S. flag" style="width: 24px;">
               </div>
               <div class="grid-col-fill tablet:grid-col-auto">
                 <p class="usa-banner__header-text" style="font-size: 12px;">An official website of the United States government</p>
@@ -56,7 +56,7 @@ class Frontend {
           <div class="usa-banner__content usa-accordion__content" id="gov-banner">
             <div class="grid-row grid-gap-lg">
               <div class="usa-banner__guidance tablet:grid-col-6">
-                <img class="usa-banner__icon usa-media-block__img" src="<?php echo esc_attr( USWPDS_URL . 'public/assets/img/icon-dot-gov.svg' ); ?>" role="img" alt="Dot gov">
+                <img class="usa-banner__icon usa-media-block__img" src="<?php echo esc_attr( USWPDS_URL . 'public/assets/img/icon-dot-gov.svg' ); ?>" width="38px" role="img" alt="Dot gov">
                 <div class="usa-media-block__body">
                   <p style="font-size: 15px;">
                     <strong>
