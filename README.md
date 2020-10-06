@@ -1,16 +1,26 @@
-# US-WP-DS
+# U.S. (WordPress) Design System
 
-This plugin contains a `us-wp-ds.php`, which registers plugin and begins its execution. Additionally, there is an admin class (`admin/class-us-wp-ds-admin.php`) where all admin hooks are registered and the frontend class (`public/class-us-wp-ds-public.php`) where all public hooks are registered. The includes directory contains the main plugin class (`include/class-us-wp-ds.php`), which defines the core functionality of the plugin and the loader file (`include/class-us-wp-ds-loader.php`), which feeds the admin and public hooks in from their respective classes into the main class file.
+This plugin is intended to make components from the [U.S. Web Design System](https://designsystem.digital.gov/) available within WordPress.
+
+The initial version makes the full USWDS CSS and JavaScript available to the WordPress frontend. The only component currently included is the [official government organization banner](https://designsystem.digital.gov/components/banner/) which is automatically added to all posts when the plugin is activated.
 
 ## Plugin Structure
 
 ```bash
-├── my-plugin.php
-        ├── admin
-        │   └── class-my-plugin-admin.php
-        ├── includes
-        │   ├── class-my-plugin.php
-        │   └── class-my-plugin-loader.php
-        └── public
-            └── class-my-plugin-public.php
+├── uswpds.php
+    ├── admin # Classes required to run the plugin admin
+    │   └── class-admin.php
+    │
+    ├── includes # Classes that orchestrate and initialize plugin hooks
+    │   ├── class-uswpds.php # Defines all the hooks
+    │   └── class-loader.php # Registers all actions and filters for the plugin.
+    │
+    └── public # Classes required to run the plugin frontend
+        ├── assets # All enqueued frontend scripts and styles
+        │   ├── css
+        │   ├── fonts
+        │   ├── img
+        │   └── js
+        │
+        └── class-frontend.php # Classes required to run the plugin frontend
 ```
