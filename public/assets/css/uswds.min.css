@@ -400,20 +400,7 @@ template {
     url(../fonts/merriweather/Latin-Merriweather-BoldItalic.woff) format('woff'),
     url(../fonts/merriweather/Latin-Merriweather-BoldItalic.ttf) format('truetype');
 }
-button:not([disabled]):focus,
-input:not([disabled]):focus,
-select:not([disabled]):focus,
-textarea:not([disabled]):focus {
-  outline: 0.25rem solid #2491ff;
-  outline-offset: 0;
-}
-[contentEditable='true']:focus,
-[href]:focus,
-[tabindex]:focus,
-iframe:focus {
-  outline: 0.25rem solid #2491ff;
-  outline-offset: 0;
-}
+
 .usa-focus {
   outline: 0.25rem solid #2491ff;
   outline-offset: 0;
