@@ -10,10 +10,6 @@
       "name": "Marek Rewers"
     }
   ],
-  "minimum-stability": "stable",
-  "require": {
-    "composer/installers": "~1.0"
-  },
   "require-dev": {
     "gpalab/coding-standards": "v1.0.0",
     "phpcompatibility/php-compatibility": "*",
