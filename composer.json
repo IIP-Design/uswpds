@@ -1,10 +1,10 @@
 {
   "name": "gpalab/uswpds",
   "type": "wordpress-plugin",
-  "description" : "Plugin to make US Web Design System components available in WordPress",
+  "description": "Plugin to make US Web Design System components available in WordPress",
   "authors": [
     {
-      "name": "U.S. Department of State, Bureau of Global Public Affairs Digital Lab <gpa-lab@america.gov>"
+      "name": "U.S. Department of State, Bureau of Global Public Affairs Digital Lab <gpa-lab@fan.gov>"
     },
     {
       "name": "Marek Rewers"

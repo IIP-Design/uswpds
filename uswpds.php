@@ -4,7 +4,7 @@
  * Plugin URI: US-WP-DS
  * Description: Plugin to make US Web Design System components available in WordPress
  * Version: v0.0.1
- * Author: U.S. Department of State, Bureau of Global Public Affairs Digital Lab <gpa-lab@america.gov>
+ * Author: U.S. Department of State, Bureau of Global Public Affairs Digital Lab <gpa-lab@fan.gov>
  * Text Domain: gpalab-uswpds
  * License: GNU General Public License v2.0
  * License URI: https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html
